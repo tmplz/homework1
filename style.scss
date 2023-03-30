@@ -47,6 +47,10 @@
         box-sizing: border-box;
         width: 234px;
         height: 48px;
+        transition: all 0.3s;
+    }
+    &__button:hover {
+        background: #EB443F;
     }
 }
 
@@ -74,6 +78,7 @@
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 32px;
+        transition: all 0.3s;
         &_1 {
             background-image: url(img/backproduct1.jpg);
             background-repeat: no-repeat;
@@ -95,6 +100,49 @@
             background-size: cover;
             border-radius: 16px;
         }
+    }
+    &__content:hover {
+        border: 3px solid #44D2FF;
+    }
+}
+
+.game {
+    background-image: url(img/BGGame.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__box  {
+        padding-top: 233px;
+        padding-bottom: 233px;
+        display: flex;
+        gap: 135px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+        padding-bottom: 32px;
+        max-width: 584px;
+    }
+    &__button {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        background: #9C0332;
+        border-radius: 30px;
+        box-sizing: border-box;
+        width: 234px;
+        height: 48px;
     }
 }
 
