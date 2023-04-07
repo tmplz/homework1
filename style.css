@@ -152,6 +152,7 @@
     padding-right: 16px;
   }
   .header {
+    max-height: 735px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -163,6 +164,7 @@
     line-height: 39px;
   }
   .header__text {
+    max-width: 343px;
     font-size: 14px;
     line-height: 22px;
   }
@@ -173,5 +175,28 @@
   .product__box {
     display: grid;
     justify-content: center;
+  }
+  .game__box {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-top: 51px;
+  }
+  .game__content {
+    display: grid;
+    justify-items: center;
+  }
+  .game__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .game__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .game__logo_img {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
