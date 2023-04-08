@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
@@ -196,7 +201,6 @@
     line-height: 22px;
   }
   .game__logo_img {
-    width: 344px;
-    height: 236px;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
