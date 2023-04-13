@@ -186,6 +186,11 @@ button {
     flex-direction: column;
     gap: 64px;
     padding-top: 51px;
+    padding-bottom: 51px;
+  }
+  .game__box_2 {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .game__content {
     display: grid;

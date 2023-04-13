@@ -12,3 +12,19 @@ function game1() {
         return alert(`Такого месяца не существует`);
     }      
 }
+
+
+function game2() {
+    let words = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    words = words.sort(() => Math.random() -0.5);
+    alert(words);
+    let inputWordFirst = prompt('Напишите первое слово');
+    let inputWordLast = prompt('Напишите последнее слово');
+    if (inputWordFirst === words[0] && inputWordLast === words[6]) {
+        return alert('Вы угадали');
+    } else if (inputWordFirst === words[0] || inputWordLast === words[6]) {
+        return alert('Вы были близки к победе!');
+    } else {
+        return alert('Вы не угадали');
+    }
+}
